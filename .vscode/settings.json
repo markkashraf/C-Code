@@ -3,4 +3,8 @@
     "workbench.list.smoothScrolling": true,
     "terminal.integrated.smoothScrolling": true,
     "editor.smoothScrolling": true,
+    "files.associations": {
+        "stdio.h": "c",
+        "string.h": "c"
+    },
 }
