@@ -1,2 +1,4 @@
 draft.c
 draft.exe
+*.exe
+.vscode
