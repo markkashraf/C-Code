@@ -3,3 +3,5 @@ draft.exe
 *.exe
 .vscode
 tempCodeRunnerFile.c
+.vscode/settings.json
+.vscode/c_cpp_properties.json
