@@ -7,7 +7,7 @@
 typedef int8_t sint8;
 typedef uint8_t uint8;
 typedef volatile int8_t vint8;
-typedef volatile unsigned uint8_t vuint8;
+typedef volatile uint8_t vuint8;
 
 
 /*16 bit integers*/
