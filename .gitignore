@@ -2,12 +2,6 @@ draft.c
 draft.exe
 *.exe
 .vscode
-tempCodeRunnerFile.c
-.vscode/settings.json
-.vscode/c_cpp_properties.json
-/Debug/
-/Release/
-.vscode/c_cpp_properties.json
 can.c
 can.h
 can.o
@@ -15,5 +9,9 @@ lib_can.a
 lolgglib.a
 xyz.c
 xyz.o
-.vscode/c_cpp_properties.json
-
+lab1
+lab1/app.c
+lab1/app.o
+lab1/uart.c
+lab1/uart.h
+lab1/uart.o
