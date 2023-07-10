@@ -2,29 +2,35 @@ ENTRY(reset)
 
 MEMORY
 {
-    Mem (rwx) : ORIGIN = 0x00000000, LENGTH = 64M
+	
+	Mem (rwx):ORIGIN = 0x00000000, LENGTH = 64M
 }
 
 SECTIONS
 {
-    . = 0x10000;
-    .text . : 
-    {
-       startup.o(.text) 
-    }> Mem
-    .code_text_and_rodata :
-    {
-        *(.text) *(.rodata)
-    }> Mem
+	. = 0x10000;
+	.startup . :
+	{
+	  startup.o(.text)
+	}> Mem
 
-    .initialized_global_data : 
-    {
-        *(.data)
-    }> Mem
-     .unitialized_global_data : 
-    {
-        *(.bss)
-    }> Mem
-    . = . + 0x1000;
+	.text :
+	{
+	  *(.text) *(.rodata)
+	}> Mem
+
+	.data :
+	{
+	  *(.data)
+	}> Mem
+
+	.bss :
+	{
+	  *(.bss) *(COMMON)
+	}> Mem
+
+	. = . + 0x1000;
     stack_top = .;
+
+
 }
