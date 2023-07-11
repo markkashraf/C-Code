@@ -37,9 +37,9 @@ int main(void)
 	while(1)
 	{
 		R_ODR->Pin.P_13 = 1;       
-		for( i=0; i<5000; i++);
+		for(i=0; i<5000; i++);
 		R_ODR->Pin.P_13 = 0;    
-		for( i=0; i<5000; i++);
+		for(i=0; i<5000; i++);
 	}
 
 }
