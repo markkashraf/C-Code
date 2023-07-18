@@ -204,7 +204,7 @@ int main()
 {
 	setbuf(stdout, NULL);
 	setbuf(stdin, NULL);
-	int operation;
+	char operation[40];
 
 	while (1)
 	{
@@ -220,9 +220,9 @@ int main()
 		printf("8.) get the nth student from the end.\n");
 		printf("********************************************************\n");
 
-		scanf("%d",&operation);
+		gets(operation);
 
-		switch (operation)
+		switch (atoi(operation))
 		{
 		case 1:
 			add_student();
