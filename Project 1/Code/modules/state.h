@@ -1,10 +1,3 @@
-/*
- * state.h
- *
- *  Created on: Jul 19, 2023
- *      Author: Mark
- */
-
 #ifndef STATE_H_
 #define STATE_H_
 

@@ -1,5 +1,3 @@
-ENTRY(reset)
-
 MEMORY
 {
 	
