@@ -32,3 +32,8 @@ A dummy circuit to test the project can be found in `Protous Project/`.
 ## Authors
 Protous project and drivers were written by Eng. Kerolos Shenoda, everything else was written by me.
 This project was created under supervision of Eng. Kerolos Shenoda.
+
+
+
+![image](https://github.com/markkashraf/Embedded-Diploma/assets/54954479/b19013f8-0482-4c5b-954f-99ec509a6a2f)
+
