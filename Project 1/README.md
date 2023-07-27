@@ -5,8 +5,8 @@ This project is a high pressure sensor that has an LED alarm that turns on for 6
 
 ## Instructions
 ### If you have an STM32F103C6 development board
-1. Connect the high pressure sensor to the STM32F103C6 development board.
-2. Connect the LED to the STM32F103C6 development board.
+1. Connect the high pressure sensor to the STM32F103C6 development board in PortA0->PortA7.
+2. Connect the LED to the STM32F103C6 development board in PortA13 with a 100Ohm Resistor.
 3. Build the project using the `make` command.
 4. Burn the code to the STM32F103C6 development board.
 5. When the high pressure sensor senses high pressure, the LED will turn on for 60 seconds.
