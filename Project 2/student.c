@@ -270,7 +270,7 @@ void delete_by_roll()
 
 File_Status add_student_file()
 {
-    FILE *fp = fopen("Data.txt", "r");
+    FILE *fp = fopen("test.txt", "r");
     if (fp == NULL) {
         printf("Failed to open file\n");
         return FAILED;
