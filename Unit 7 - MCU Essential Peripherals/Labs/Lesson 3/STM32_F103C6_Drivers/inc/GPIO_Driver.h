@@ -76,7 +76,7 @@ typedef struct
 #define GPIO_MODE_OUTPUT_AF_PP			0x00000006u		/* Alternate function output Push-pull */
 #define GPIO_MODE_OUTPUT_AF_OD			0x00000007u		/* Alternate function output Open-drain */
 #define GPIO_MODE_INPUT_AF				0x00000008u		/* Alternate function input */
-
+-
 //@ref GPIO_SPEED_define
 /*
  * 1: Output mode, max speed 10 MHz.
