@@ -1,0 +1,6 @@
+EXTI_Driver.c:6:6:EXTI_UPDATE	24	static
+EXTI_Driver.c:29:6:MCAL_EXTI_GPIO_DeInit	4	static
+EXTI_Driver.c:49:6:MCAL_EXTI_GPIO_Init	16	static
+EXTI_Driver.c:53:6:MCAL_EXTI_GPIO_Update	16	static
+EXTI_Driver.c:57:6:enable_NVIC	16	static
+EXTI_Driver.c:100:6:disable_NVIC	16	static
